@@ -15,6 +15,11 @@ When the program is running, there are a few hotkeys available:
 - Shift + Left/Right: Scrub back.forward in time by 1 second
 - /: Toggle Left/Right X/Y mapping
 
+An example video of a
+[certain audio track](https://media.defcon.org/DEF%20CON%2028/DEF%20CON%2028%20Safe%20Mode%20Music/Safe%20Mode%20Badge/)
+run through this program can be found
+[on youtube here](https://www.youtube.com/watch?v=RWaPUvlBL9A).
+
 ![Example Output](/img/lissajous.gif)
 
 ## Building
