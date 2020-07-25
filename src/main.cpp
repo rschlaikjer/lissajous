@@ -170,8 +170,8 @@ int main(int argc, char **argv) {
     }
   });
 
-  // Use a 100ms window
-  const int window_size = audio_info.samplerate / 10;
+  // Use a 50ms window
+  const int window_size = audio_info.samplerate / 20;
 
   while (!glfwWindowShouldClose(window)) {
     // Init the viewport for the render method
@@ -187,7 +187,7 @@ int main(int argc, char **argv) {
     }
 
     // Render
-    render(frames, audio_info.samplerate / 10, frame_index, invert_lr);
+    render(frames, window_size, frame_index, invert_lr);
 
     // Advance the frame index
     double time = glfwGetTime();
